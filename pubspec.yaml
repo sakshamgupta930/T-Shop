@@ -9,6 +9,7 @@ environment:
 
 # --------------------- PACKAGES --------------------#
 dependencies:
+  carousel_slider: ^4.2.1
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
@@ -20,9 +21,9 @@ dependencies:
   intl: ^0.18.1
   logger: ^2.0.2+1
   lottie: ^2.7.0
+  phlox_animations: ^2.1.1
   smooth_page_indicator: ^1.1.0
   url_launcher: ^6.2.1
-  phlox_animations: ^2.1.1
 
 # --------------------- PACKAGES END --------------------#
 dev_dependencies:
@@ -38,8 +39,11 @@ flutter:
   assets:
     - assets/logos/
     - assets/icons/brands/
+    - assets/images/banners/
+    - assets/images/products/
     - assets/images/on_boarding_images/
     - assets/images/animations/
+    - assets/icons/categories/
   # --------------------- LOCAL FONTS --------------------#
   fonts:
     - family: Poppins
